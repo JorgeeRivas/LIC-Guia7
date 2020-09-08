@@ -1,0 +1,80 @@
+.liner {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .liner:after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background: #D66853;
+    min-width: 20px;
+    margin: auto;
+  }
+  .liner:after {
+    margin-left: 20px;
+  }
+  
+  body {
+    padding: 50px;
+    background-color: #11151C;
+    color: #7D4E57;
+    line-height: 170%;
+    font-family: sans-serif;
+  }
+  body .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  body .container .nest {
+    width: 50%;
+    margin: 40px auto;
+    border: solid 1px;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #D66853;
+  }
+  
+  button, input{
+    border-radius: 5px;
+    height: 35px;
+    border: 0;
+    padding: 0 10px;
+    background-color: #D66853;
+  }
+
+  select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-image: url(https://dl.dropbox.com/s/6q2p49jczkvy2n1/arrows-bg.svg), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#f7f7f7)), -webkit-gradient(linear, left top, left bottom, from(#2e343b), to(#2e343b));
+    background-image: url(https://dl.dropbox.com/s/6q2p49jczkvy2n1/arrows-bg.svg), linear-gradient(#f7f7f7, #f7f7f7), linear-gradient(#2e343b, #2e343b);
+    background-position: calc(100% - 14px) -34px, 100%, calc(100% - 34px) 0;
+    background-size: auto, 34px 100%, 1px 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    min-width: 8.5rem;
+    -webkit-transition: border-color 0.1s linear;
+    transition: border-color 0.1s linear;
+    border: 1px solid #2e343b;
+    border-radius: 2px;
+    padding: 8px 44px 8px 8px;
+    color: #2e343b;
+    background-color: white;
+    font-size: 14px;
+    height: 34px;
+  }
+  select:focus {
+    border-color: crimson;
+    box-shadow: none;
+    outline: 0;
+    background-image: url(https://dl.dropbox.com/s/6q2p49jczkvy2n1/arrows-bg.svg), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#f7f7f7)), -webkit-gradient(linear, left top, left bottom, from(crimson), to(crimson));
+    background-image: url(https://dl.dropbox.com/s/6q2p49jczkvy2n1/arrows-bg.svg), linear-gradient(#f7f7f7, #f7f7f7), linear-gradient(crimson, crimson);
+    background-position: calc(100% - 14px) 12px, 100%, calc(100% - 34px) 0;
+  }
+  
+  
+  
